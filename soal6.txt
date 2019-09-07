@@ -1,0 +1,4 @@
+SELECT a.id, a.name, b.name pekerjaan, c.salary
+FROM name a, work b, kategori c
+where a.id_work=b.id
+and a.id_salary=c.id
